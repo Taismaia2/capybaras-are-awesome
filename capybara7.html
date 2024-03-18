@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Short+Stack&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Short+Stack&display=swap"
+      rel="stylesheet"
+    />
+    <title>We ❤️ Capybara</title>
+    <link
+      rel="icon"
+      href="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/515/original/pointer2.png?1700501540"
+    />
+    <style>
+      ::selection {
+        color: #fff;
+        background: #b19572;
+      }
+      body {
+        margin: 0px;
+        height: 100vh;
+        cursor: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/515/original/pointer2.png?1700501540")
+            25 15,
+          auto;
+      }
+
+      .icon {
+        width: 70px;
+        margin: 0px auto;
+        display: block;
+      }
+
+      h1 {
+        font-size: 50px;
+        text-align: center;
+        font-family: "Short Stack", Helvetica, sans-serif;
+        font-weight: 100;
+        color: #5e3e11;
+        padding: 15px 1px;
+        margin: 20px 1px;
+      }
+      h2 {
+        font-size: 30px;
+        text-align: center;
+        font-family: "Open Sans", Helvetica, sans-serif;
+        font-weight: 100;
+        color: #5e3e11;
+        border-radius: 10px;
+        padding: 15px 1px;
+        margin: 20px 1px;
+      }
+
+      .main {
+        display: block;
+        margin: auto;
+        box-shadow: rgba(37, 39, 89, 0.2) 0px 8px 8px 0;
+        border-radius: 20px;
+        size: 300px;
+      }
+      .container img {
+        height: 90%;
+        width: 90%;
+        .container img {
+          object-fit: contain;
+        }
+      }
+
+      .firstTitle {
+        text-align: center;
+        font-size: 25px;
+        font-family: "Short Stack", Helvetica, sans-serif;
+        font-weight: bold;
+        color: #5e3e11;
+        margin: 1px auto;
+      }
+      .firstText {
+        text-align: justify;
+        font-size: 20px;
+        font-family: "Open Sans", Helvetica, sans-serif;
+        font-weight: 100px;
+        color: #624e31;
+        max-width: 700px;
+        margin: 0px auto;
+        line-height: 1.5;
+        padding: 4px 2px;
+      }
+      .learnMore {
+        color: #5e3e11;
+        font-family: "Open Sans", Helvetica, sans-serif;
+        text-align: justify;
+        font-size: 15px;
+        max-width: 700px;
+        margin: 0px auto;
+        line-height: 1.5;
+        padding: 4px 2px;
+      }
+      .learnMore:hover {
+        font-weight: bold;
+        transition: all 200ms ease;
+      }
+      a:visited {
+        color: #5e3e11;
+      }
+
+      .secondText {
+        text-align: justify;
+        font-size: 20px;
+        font-family: "Open Sans", Helvetica, sans-serif;
+        font-weight: 100px;
+        color: #624e31;
+        max-width: 700px;
+        margin: 0px auto;
+        line-height: 1.5;
+        padding: 4px 2px;
+      }
+      h3 {
+        text-align: center;
+        font-size: 25px;
+        font-family: "Short Stack", Helvetica, sans-serif;
+        font-weight: bold;
+        color: #5e3e11;
+        margin: 50px auto;
+      }
+      .rowOne {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        flex-basis: auto;
+        margin: 20px auto;
+        padding: 20px;
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        text-size-adjust: auto;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .videoCapy,
+      .arts,
+      .goodies {
+        font-family: "Short Stack", Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+      }
+      .cuteVideo,
+      .wallpaper,
+      .hoodie {
+        max-width: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+        height: 100%;
+        border: 3px solid #fff;
+        box-shadow: rgba(37, 39, 89, 0.1) 0px 8px 8px 0;
+        transition: all 200ms ease;
+      }
+      .cuteVideo:hover {
+        border: 3px solid #5e3e11;
+      }
+      .wallpaper:hover {
+        border: 3px solid #5e3e11;
+      }
+      .hoodie:hover {
+        border: 3px solid #5e3e11;
+      }
+      .lastSentence {
+        text-align: center;
+        font-size: 20px;
+        font-family: "Open Sans", Helvetica, sans-serif;
+        font-weight: 600px;
+        color: #624e31;
+        max-width: 700px;
+        margin: 0px auto;
+        line-height: 1.5;
+        padding: 4px 2px;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #624e31;
+        background: #624e31;
+        color: #fff;
+        font-size: 16px;
+        font-family: "Open Sans", Helvetica, sans-serif;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.1) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: transparent;
+        color: #624e31;
+      }
+      .end {
+        font-family: monospace;
+        padding: 4px 20px;
+        margin: 20px auto;
+        text-align: center;
+        color: rgb(177, 149, 114);
+      }
+      .pageFrame {
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        background: linear-gradient(
+          109.6deg,
+          rgb(204, 228, 247) 11.2%,
+          rgb(237, 246, 250) 100.2%
+        );
+        padding: 50px;
+        margin: 50px auto;
+        width: 60%;
+        border-radius: 10px;
+      }
+      .newPage {
+        font-family: "Short Stack", Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="pageFrame">
+      <img
+        class="icon"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/508/original/ae879f841a62bc0d162a1f1ab2317eb3_1200x1200_Background_Removed.png?1700497993"
+        alt="capy"
+        width="100px"
+      />
+      <hr width="100px" color="white" />
+      <div class="pageBody">
+        <h1>Capybaras are <br /><strong>AWESOME</strong></h1>
+        <h2>And we can prove it!</h2>
+        <div class="container">
+          <img
+            class="main"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/502/original/da996f94c4133cc3574d777424b983b4.jpg?1700497624"
+            width="400px"
+          />
+        </div>
+        <span class="firstTitle">
+          <p>
+            <strong>The basics about Capybaras</strong>
+          </p></span
+        >
+
+        <p class="firstText">
+          The capybara is a giant cavy rodent native to South America. It is the
+          largest living rodent and a member of the genus Hydrochoerus. The only
+          other extant member is the lesser capybara
+          <em>(Hydrochoerus isthmius)</em>. Its close relatives include guinea
+          pigs and rock cavies, and it is more distantly related to the agouti,
+          the chinchilla, and the nutria. The capybara inhabits savannas and
+          dense forests, and lives near bodies of water. It is a highly social
+          species and can be found in groups as large as 100 individuals, but
+          usually live in groups of 10 to 20 individuals. The capybara is hunted
+          for its meat and hide and also for grease from its thick fatty skin.It
+          is not considered a threatened species.
+        </p>
+        <p class="learnMore">
+          <a href="https://en.wikipedia.org/wiki/Capybara" target="_blank"
+            >Learn More...</a
+          >
+        </p>
+        <br />
+        <p class="secondText">
+          Despite their size, they're actually very docile. In fact, they're
+          known for being one of the most friendly and social animals in the
+          rodent family. One of the best things about capybaras is their love
+          for water. They're excellent swimmers and can often be found lounging
+          in ponds and rivers.
+        </p>
+        <br />
+        <h3>Prove on how cute they are:</h3>
+        <ul class="rowOne">
+          <li class="videoCapy">
+            <a
+              href="https://www.youtube.com/watch?v=tTaz5pV08SM"
+              target="_blank"
+            >
+              <img
+                class="cuteVideo"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/708/original/1.png?1700660116"
+                alt="cuteVideo"
+            /></a>
+            <a
+              href="https://www.youtube.com/watch?v=tTaz5pV08SM"
+              target="_blank"
+              >Capy News</a
+            >
+          </li>
+          <li class="arts">
+            <a
+              href="https://br.pinterest.com/search/pins/?q=capybara%20wallpaper&rs=guide&journey_depth=1&source_module_id=OBcapybara_wallpaperc6636fa0-d2ff-4c75-8dcb-270d604c1867&add_refine=Wallpaper%7Cguide%7Cword%7C2"
+              target="_blank"
+            >
+              <img
+                class="wallpaper"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/709/original/2.png?1700660156"
+                alt="wallpaper"
+            /></a>
+            <a
+              href="https://br.pinterest.com/search/pins/?q=capybara%20wallpaper&rs=guide&journey_depth=1&source_module_id=OBcapybara_wallpaperc6636fa0-d2ff-4c75-8dcb-270d604c1867&add_refine=Wallpaper%7Cguide%7Cword%7C2"
+              target="_blank"
+              >Capy Wallpaper</a
+            >
+          </li>
+          <li class="goodies">
+            <a
+              href="https://www.etsy.com/dk-en/market/capybara_art?ref=pagination&page=2"
+              target="_blank"
+            >
+              <img
+                class="hoodie"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/707/original/3.png?1700660023"
+                alt="hoodie"
+            /></a>
+            <a
+              href="https://www.etsy.com/dk-en/market/capybara_art?ref=pagination&page=2"
+              target="_blank"
+              >Capy Goodies</a
+            >
+          </li>
+        </ul>
+        <p class="lastSentence">
+          <strong>What do you think? Are you ready to have your own?</strong>
+        </p>
+        <br />
+
+        <button>Adopt a Capy</button>
+        <br />
+      </div>
+      <p class="end">Coded by Taís Maia</p>
+    </div>
+    <script>
+      function adoptCapy() {
+        let name = prompt("What is your name?");
+        name = name.toUpperCase();
+        let capydometer = prompt(
+          "Do you think Capybaras are awesome? Yes or No?"
+        );
+        capydometer = capydometer.toLowerCase().trim();
+        let newPage = document.querySelector(".pageFrame");
+        if (capydometer === "yes") {
+          newPage.innerHTML =
+            "Great! You are a ❤️Capy Lover❤️. <br />Let's get you a Capy!<br />Point your camera to the QR Code bellow: <img src=https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/808/original/qrcode_gifts.worldwildlife.org.png?1700764321 width=300 align=middle>";
+        } else if (capydometer === "no") {
+          alert("👹ATTENTION! WE HAVE A CAPY HATER 👹!YOU, " + name + "!");
+        } else {
+          alert("Please, answer Yes or No!");
+        }
+      }
+
+      let adoptButton = document.querySelector("button");
+      adoptButton.addEventListener("click", adoptCapy);
+    </script>
+  </body>
+</html>
